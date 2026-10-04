@@ -1,0 +1,58 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Large Binary Machine Learning Models & Heavy Artifacts (>100MB Git Issue)
+*.pkl
+*.pickle
+*.joblib
+*.task
+*.tflite
+backend/models/*.pkl
+backend/models/*.task
+backend/models/hand_extracted/
+backend/debug_frames/
+verify_out/
+
+# Datasets (Track schema / code, not local massive CSV recordings)
+backend/data/isl_landmarks/*.csv
+
+# Node & Expo (Mobile App)
+node_modules/
+.expo/
+.expo-shared/
+web-build/
+*.tsbuildinfo
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# IDE / Editor folders
+.vscode/
+.idea/

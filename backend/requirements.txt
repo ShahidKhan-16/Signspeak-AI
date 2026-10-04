@@ -1,0 +1,11 @@
+flask
+flask-socketio
+eventlet
+python-dotenv
+mediapipe
+opencv-contrib-python
+numpy
+pillow
+ai-edge-litert
+scikit-learn
+pandas
