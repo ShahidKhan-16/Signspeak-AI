@@ -53,7 +53,7 @@ Built around a high-performance **3-tab mobile architecture**, the application d
 
 ```mermaid
 flowchart TB
-    subgraph Client ["📱 Mobile Client (React Native / Expo SDK 52)"]
+    subgraph Client ["📱 Mobile Client (React Native / Expo SDK 57)"]
         direction TB
         C1["Camera View (5 FPS / 0.3 JPEG Quality)"]
         C2["Centralized SocketProvider (socket-context.tsx)"]
@@ -75,7 +75,7 @@ flowchart TB
         S1 --> S2 --> S3 --> S4 --> S5 --> S1
     end
 
-    C2 <===>|WebSocket Stream (base64 frame / landmarks + prediction)| S1
+    C2 <--> |"WebSocket Stream (base64 frame / landmarks + prediction)"| S1
 ```
 
 ---
